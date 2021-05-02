@@ -47,14 +47,14 @@ myconn = mysql.connector.connect(host="localhost", user="bhavana",
                                  password="Shivani@1805",database="PythonDB")
 cur = myconn.cursor()
 
-# for i in range(len(images_df)):
-#
-#     data = (images_df.iloc[i,0], images_df.iloc[i,1], images_df.iloc[i,2], images_df.iloc[i,3])
-#     # print(len(images_df.iloc[i,3]))
-#     cur.execute("insert into PythonDB.Tag_table(File_Name, Images, Back_or_front, File_loc) values(%s,%s,%s,%s)",data)
-#
-#     print("Records are inserted into tag table")
-# myconn.commit()
+for i in range(len(images_df)):
+
+    data = (images_df.iloc[i,0], images_df.iloc[i,1], images_df.iloc[i,2], images_df.iloc[i,3])
+    # print(len(images_df.iloc[i,3]))
+    cur.execute("insert into PythonDB.Tag_table(File_Name, Images, Back_or_front, File_loc) values(%s,%s,%s,%s)",data)
+
+    print("Records are inserted into tag table")
+myconn.commit()
 
 for j in range(len(f_df)):
 
