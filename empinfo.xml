@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<employee>-->
+<!--    <fname>Bhavana</fname>-->
+<!--    <lname>harish</lname>-->
+<!--    <expertise name="java"/>-->
+<!--    <expertise name="python"/>-->
+<!--    <expertise name="sql"/>-->
+<!--    <city>Hyderabad</city>-->
+
+<!--</employee>-->
+
+<data>
+    <lap>Macbook</lap>
+   <items>
+      <item name="expertise1">SQL</item>
+      <item name="expertise2">Python</item>
+   </items>
+</data>

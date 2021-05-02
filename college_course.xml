@@ -1,0 +1,15 @@
+<root>
+    <course>
+        <regno>10011</regno>
+        <subj>Java </subj>
+        <trainer>Bhavana</trainer>
+        <days>60</days>
+    </course>
+    <course>
+        <regno>10015</regno>
+        <subj>Python</subj>
+        <trainer>Harish</trainer>
+        <days>45</days>
+    </course>
+
+</root>
